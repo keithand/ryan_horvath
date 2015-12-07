@@ -13,9 +13,9 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<?php get_sidebar( 'footer' ); ?>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'nerdyowl' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'nerdyowl' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'www.nerdyowl.co/', 'nerdyowl' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'nerdyowl' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'nerdyowl' ), 'nerdyowl', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'clean-and-simple' ), 'clean-and-simple', '<a href="http://keithand.co" rel="designer" style="color:#69D2E7">Keith Anderson</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
